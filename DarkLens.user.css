@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name         Google lens dark
+@namespace    bropines
+@version      1.3.2
+@description  Google lens dark theme
+@author       bropines
+@homepageURL  https://github.com/bropines/Google-Lens-Dark-Theme
+@supportURL   https://github.com/bropines/Google-Lens-Dark-Theme/issues
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+
+#yDmH0d,
+.BgmNhe,
+.F0mDWe,
+.nmFqac {
+    background-color: #131719 !important;
+}
+
+.gb_Ea .gb_jd.gb_kd.gb_Ed {
+    min-width: 0;
+    background-color: #1c2023;
+}
+
+.LjDxcd:hover:not(:disabled),
+.LjDxcd:focus:not(:disabled),
+.LjDxcd:active:not(:disabled),
+.UAiK1e,
+.ekSIQ,
+.fjbPGe,
+.wCgoWb,
+.Gvzqvf,
+.Gvzqvf *,
+.U5xcwf {
+    color: white !important;
+}
+
+.QeOavc,
+.TCimBb {
+    background-color: #202528 !important;
+    color: white !important;
+}
+
+.Byj9ob.eO2Zfd {
+    color: inherit !important;
+    background-color: #131719 !important;
+}
