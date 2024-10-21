@@ -8,7 +8,7 @@
 @supportURL   https://github.com/bropines/Google-Lens-Dark-Theme/issues
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
-
+@-moz-document url-prefix("https://lens.google.") {
 #yDmH0d,
 .BgmNhe,
 .F0mDWe,
@@ -38,9 +38,94 @@
 .TCimBb {
     background-color: #202528 !important;
     color: white !important;
+    border-radius: 3px;
 }
 
 .Byj9ob.eO2Zfd {
     color: inherit !important;
     background-color: #131719 !important;
+}
+
+}
+
+@-moz-document url-prefix("https://www.google.com/search?lenswebembed") {
+html {
+    background-color: #131719;
+}
+
+.pkphOe {
+    background-color: #1f2528;
+}
+
+body {
+    padding: 0 1px;
+    background-color: #131719;
+}
+
+* {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+}
+
+.s3v9rd.AP7Wnd {
+    color: #919191;
+}
+
+.UPmit.AP7Wnd {
+    color: #fbfbfb;
+}
+
+.vvjwJb {
+    color: #b587ff !important;
+}
+
+.FCUp0c {
+    color: #ffffff;
+}
+
+.Lt3Tzc {
+    color: #b7b7b7;
+}
+
+.Va3FIb a span b i {
+    color: #26adff !important;
+}
+
+.EE3Upf, 
+.Va3FIb.EE3Upf {
+    color: white;
+}
+
+/* Для ссылок с классом vvjwJb */
+a:visited .vvjwJb,
+.vvjwJb a:visited {
+    color: #8378fd !important;
+}
+
+.XLloXe {
+    color: #493be5 !important;
+}
+
+.yStFkb .xpd {
+    background-color: #2c3438;
+}
+
+.BNeawe {
+    color: white;
+}
+
+.nRlVm .FCUp0c {
+    background-color: #d3e3fd;
+    border-radius: 5px;
+}
+
+/* Цвет для ссылки с классами OMQwbd и Xb5VRe */
+.OMQwbd.Xb5VRe, 
+.kCrYT .rQMQod.Xb5VRe,
+.kCrYT .rQMQod.Xb5VRe:visited,
+.OMQwbd.Xb5VRe:visited {
+    color: #4b11a8 !important;
+}
+
 }
